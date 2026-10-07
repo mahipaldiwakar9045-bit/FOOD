@@ -1,0 +1,112 @@
+.header-container {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 25px;
+    background-color: currentColor;
+    box-sizing: border-box;
+}
+
+/* Logo + Company */
+.company {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(7, 3, 6);
+    white-space: nowrap;
+}
+
+.company img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.company h2 {
+    margin: 0;
+}
+
+/* Location */
+.location {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.location input {
+    width: 170px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Search */
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 11px 15px;
+    border: none;
+    background: white;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+/* Cart */
+.food-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.food-card {
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.food-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-card h2,
+.food-card p,
+.food-card h3,
+.food-card button {
+    margin-left: 15px;
+     
+}
+
+.food-card button {
+    margin-bottom: 15px;
+}
+
+.food-card button {
+    margin-left: 15px;
+     background-color: forestgreen;
+    color: #000;
+}
+
+
+
